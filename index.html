@@ -56,10 +56,13 @@
         <section id="introduction" class="home-section" aria-labelledby="introduction-title">
           <h2 id="introduction-title">Introduction</h2>
           <p>
-The workshop aims to explore several directions at the intersection of physics and AI, including:
-how physical principles can inform objective functions (e.g., free-energy perspectives on VAEs, and connections between diffusion models and thermodynamics),
-how physics can provide insights into optimization and training dynamics,
-and what AI models learn and represent in latent spaces.
+            Modern AI systems are increasingly powerful, yet their objectives, representations, training dynamics, and emergent behaviors remain only partially understood. The <b>Physics for AI</b> workshop explores how physical principles can provide mathematical and algorithmic tools for understanding and designing modern machine learning systems.
+          </p>
+          <p>
+            The workshop treats AI systems as high-dimensional statistical and dynamical systems. From this perspective, learning objectives define effective energy landscapes, optimization and sampling induce nonequilibrium dynamics, and latent spaces become structured state spaces shaped by geometry, symmetry, and constraints. This viewpoint connects a broad range of topics, including free-energy principles, diffusion and flow models, energy-based learning, representation geometry, phase transitions, training dynamics, and foundation-model theory.
+          </p>
+          <p>
+            Unlike broad AI-for-science workshops that focus primarily on applying AI to scientific discovery, this workshop studies AI systems themselves as objects of physical analysis. We aim to bring together researchers from machine learning, statistical physics, applied mathematics, computational neuroscience, and related fields to build a shared language for Physics for AI, clarify open problems, and identify principles for interpretable, controllable, and robust AI systems.
           </p>
         </section>
 
@@ -100,22 +103,77 @@ and what AI models learn and represent in latent spaces.
           </p> -->
 
           <h3>Topics of Interest</h3>
-          <p>TBD</p>
-          <!-- <ul>
-            <li>Physics-informed and structure-preserving machine learning</li>
-            <li>Scientific foundation models, generative models, and agents for physical systems</li>
-            <li>Learning for simulation, surrogate modeling, inverse problems, and control</li>
-            <li>AI for materials, fluids, climate, chemistry, astronomy, and high-energy physics</li>
-            <li>Uncertainty, robustness, interpretability, and reproducibility in scientific ML</li>
-            <li>Datasets, benchmarks, and evaluation protocols for physical reasoning</li>
-          </ul> -->
+          <p>
+            We welcome submissions on topics related to <b>Physics for AI</b>,
+            including but not limited to:
+          </p>
+          <ul>
+            <li><b>Physical principles for AI objectives</b>
+              <ul>
+                <li>Free-energy, variational, and thermodynamic principles for machine learning</li>
+                <li>Physical perspectives on generalization, robustness, and out-of-distribution behavior</li>
+                <li>Connections between physical principles and objectives in VAEs, diffusion models, flow models, etc.</li>
+              </ul>
+            </li>
+            <li><b>Generative models as dynamical systems</b>
+              <ul>
+                <li>Diffusion models, flow matching, energy-based models, and iterative refinement as dynamical processes</li>
+                <li>Nonequilibrium, thermodynamic, and stochastic-process views of generative modeling</li>
+                <li>Distributional dynamics, sampling dynamics, and trajectories in high-dimensional spaces</li>
+                <li>Controllability, steerability, interpolation, sampling efficiency, and generative geometry</li>
+              </ul>
+            </li>
+            <li><b>Latent spaces, representations, and emergent structure</b>
+              <ul>
+                <li>Geometry, topology, symmetry, and invariance in learned representations</li>
+                <li>Coarse-graining, collective variables, order parameters, and interpretable latent coordinates</li>
+                <li>Representation collapse, specialization, phase transitions, and emergent structure</li>
+                <li>Physical perspectives on mechanistic interpretability and foundation-model representations</li>
+              </ul>
+            </li>
+            <li><b>Optimization and training dynamics</b>
+              <ul>
+                <li>High-dimensional loss landscapes and nonequilibrium training dynamics</li>
+                <li>Mean-field, dynamical mean-field, and spin-glass approaches to deep learning</li>
+                <li>Phase transitions, grokking, mode connectivity, implicit bias, and training instabilities</li>
+                <li>Generalization, robustness, and scaling behavior from physical or statistical-mechanical viewpoints</li>
+              </ul>
+            </li>
+            <li><b>Benchmarks, theory, and perspectives</b>
+              <ul>
+                <li>Minimal models and toy problems for Physics for AI</li>
+                <li>Measurable physical quantities for diagnosing training, generation, and representation learning</li>
+                <li>Benchmark proposals and evaluation protocols for physical principles in AI</li>
+                <li>Position papers, negative results, and conceptual clarifications on the role and limits of physical analogies in AI</li>
+              </ul>
+            </li>
+          </ul>
 
           <h3>Submission Format</h3>
-          <p>
+          <!-- <p>
             Format, page limits, anonymity policy, and submission system are
             TBD. This section is ready for the final NeurIPS workshop
             instructions once they are confirmed.
-          </p>
+          </p> -->
+          <ul>
+            <li>
+              The workshop is <b>non-archival</b>. Submissions should not be identical to finalized work that has already been published or accepted at major machine learning venues.
+            </li>
+            <li>
+              Submissions may take the form of original research, work in progress, theoretical notes, benchmark proposals, position papers, negative results, or empirical studies. We accept two submission formats:
+              <ul>
+                <li><b>Short papers:</b> up to 4 pages, excluding references and optional appendices. This format is suitable for early-stage ideas, position papers, theoretical notes, negative results, and concise empirical or conceptual studies.
+                </li>
+                <li><b>Long papers:</b> up to 8 pages, excluding references and optional appendices. This format is suitable for more developed research contributions with substantial theoretical, empirical, or methodological content.
+              </ul>
+            </li>
+            <li>
+              All submissions should follow the <b>NeurIPS workshop style</b>. Reviews will be double-blind, so submissions should be anonymized. Authors may include appendices or supplementary material, but reviewers are not required to read them.
+            </li>
+            <li>
+              All submissions must be made through <b>OpenReview</b>. Accepted submissions, whether short or long, will be presented as posters. A small number of accepted submissions will additionally be selected for 10-minute spotlight presentations.
+            </li>
+          </ul>
 
           <!-- <h3>Review Criteria</h3>
           <ul>
