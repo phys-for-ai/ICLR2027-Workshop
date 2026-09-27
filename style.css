@@ -143,6 +143,7 @@ a {
 .hero__content {
   align-self: center;
   max-width: 760px;
+  width: 100%;
   padding: var(--space-5) var(--space-6);
   position: relative;
 }
@@ -168,6 +169,11 @@ a {
   font-size: 19px;
   margin: 0;
   max-width: 58ch;
+}
+
+#hero-title {
+  width: 100%;
+  max-width: none;
 }
 
 .content-stack {
