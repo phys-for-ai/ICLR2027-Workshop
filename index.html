@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Physical Pathways to Understanding AI Mechanism Workshop</title>
+    <title>Physical Pathways to Understanding AI Mechanisms Workshop</title>
     <meta
       name="description"
       content="Physics and AI Workshop"
@@ -15,15 +15,15 @@
   <body>
     <header class="site-header">
       <div class="site-header__inner">
-        <a class="site-brand" href="#home">Physical Pathways to Understanding AI Mechanism Workshop</a>
+        <a class="site-brand" href="#home">Physics for AI Workshop</a>
         <nav aria-label="Primary">
           <ul class="nav">
             <li><a href="#home">Home</a></li>
             <li><a href="#introduction">Introduction</a></li>
             <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#call-for-paper">Call for Paper</a></li>
-            <li><a href="#speaker">Speaker</a></li>
-            <li><a href="#organizer">Organizer</a></li>
+            <li><a href="#call-for-paper">Call for Papers</a></li>
+            <li><a href="#speaker">Speakers</a></li>
+            <li><a href="#organizer">Organizers</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -43,7 +43,7 @@
         <div class="hero__content">
           <p class="eyebrow">ICLR 2027 Workshop  29/30 April, 2027</p>
           <h1 id="hero-title">
-            Physical Pathways to Understanding AI Mechanism Workshop
+            Physical Pathways to Understanding AI Mechanisms Workshop
           </h1>
           <p class="hero__lead">
             Exploring how physical principles can shape learning objectives, illuminate optimization dynamics, and reveal the structure of AI representations.
@@ -55,10 +55,13 @@
         <section id="introduction" class="home-section" aria-labelledby="introduction-title">
           <h2 id="introduction-title">Introduction</h2>
           <p>
-            Modern AI systems are increasingly powerful, yet their objectives, representations, training dynamics, and emergent behaviors remain only partially understood. The <b>Physical Pathways to Understanding AI Mechanism</b> workshop explores how physical principles can provide mathematical and algorithmic tools for understanding and designing modern machine learning systems.
+            Modern AI systems are increasingly powerful, yet their objectives, representations, training dynamics, and emergent behaviors remain only partially understood. The <b>Physical Pathways to Understanding AI Mechanisms</b> workshop explores how physical principles can provide mathematical and algorithmic tools for understanding and designing modern machine learning systems.
           </p>
           <p>
-            The workshop treats AI systems as high-dimensional statistical and dynamical systems. From this perspective, learning objectives define effective energy landscapes, optimization and sampling induce nonequilibrium dynamics, and latent spaces become structured state spaces shaped by geometry, symmetry, and constraints. This viewpoint connects a broad range of topics, including free-energy principles, diffusion and flow models, energy-based learning, representation geometry, phase transitions, training dynamics, and foundation-model theory.
+            The workshop treats AI systems as high-dimensional statistical and dynamical systems and explores three complementary pathways: physical principles for learning objectives, learning and generation as dynamical systems, and representation structure and emergent behavior. Energy and free-energy formulations connect learning objectives to probabilistic structure and constraints; stochastic and nonequilibrium dynamics illuminate training and generation; and geometry, symmetry, and collective phenomena help characterize learned representations and changes in model behavior.
+          </p>
+          <p>
+            Across these pathways, we ask when physical perspectives provide testable predictions, mechanistic explanations, and practical design tools. We welcome approaches that connect explicit assumptions to measurable predictions, test proposed mechanisms through interventions, and examine the scope and limitations of physical descriptions beyond descriptive analogies.
           </p>
           <p>
             Unlike broad AI-for-science workshops that focus primarily on applying AI to scientific discovery, this workshop studies AI systems themselves as objects of physical analysis. We aim to bring together researchers from machine learning, statistical physics, applied mathematics, computational neuroscience, and related fields to build a shared language for Physics for AI, clarify open problems, and identify principles for interpretable, controllable, and robust AI systems.
@@ -68,33 +71,46 @@
         <section id="schedule" class="home-section" aria-labelledby="schedule-title">
           <h2 id="schedule-title">Schedule</h2>
           <p>
-            The detailed workshop schedule will be added after the ICLR 2027
-            workshop date, room assignment, speakers, and accepted papers are
-            confirmed.
+            The timeline and program below are tentative. The detailed timetable
+            will be announced once the workshop date, room assignment, and
+            contributed presentations are confirmed.
           </p>
 
           <dl class="date-list">
             <div>
               <dt>Submission deadline</dt>
-              <dd>TBD</dd>
+              <dd>February 1, 2027 AoE (tentative)</dd>
             </div>
             <div>
-              <dt>Notification</dt>
-              <dd>TBD</dd>
+              <dt>Acceptance decisions</dt>
+              <dd>Finalized by February 20, 2027; authors notified immediately thereafter (tentative)</dd>
             </div>
             <div>
               <dt>Camera-ready</dt>
-              <dd>TBD</dd>
+              <dd>February 24, 2027 (tentative)</dd>
+            </div>
+            <div>
+              <dt>Accepted papers publicly available</dt>
+              <dd>On OpenReview and imported into the ICLR website no later than February 26, 2027 AoE</dd>
             </div>
             <div>
               <dt>Workshop</dt>
               <dd>2027 · 29/30 April, San Francisco, USA</dd>
             </div>
           </dl>
+
+          <h3>Tentative Program</h3>
+          <p>The one-day workshop will include:</p>
+          <ul>
+            <li>6–8 invited talks, each lasting 30 minutes including Q&amp;A</li>
+            <li>6 spotlight presentations, each lasting 10 minutes</li>
+            <li>Two 60-minute poster sessions</li>
+            <li>A 45-minute moderated discussion connecting learning objectives, dynamics, and representation structures</li>
+          </ul>
         </section>
 
         <section id="call-for-paper" class="home-section" aria-labelledby="cfp-title">
-          <h2 id="cfp-title">Call for Paper</h2>
+          <h2 id="cfp-title">Call for Papers</h2>
           <!-- <p>
             We invite submissions at the intersection of physics and AI,
             including new methods, datasets, benchmarks, position papers, and
@@ -103,49 +119,33 @@
 
           <h3>Topics of Interest</h3>
           <p>
-            We welcome submissions on topics related to <b>Physical Pathways to Understanding AI Mechanism</b>,
+            We welcome submissions on topics related to <b>Physical Pathways to Understanding AI Mechanisms</b>,
             including but not limited to:
           </p>
           <ul>
-            <li><b>Physical principles for AI objectives</b>
+            <li><b>Physical principles for learning objectives</b>
               <ul>
-                <li>Free-energy, variational, and thermodynamic principles for machine learning</li>
-                <li>Physical perspectives on generalization, robustness, and out-of-distribution behavior</li>
-                <li>Connections between physical principles and objectives in VAEs, diffusion models, flow models, etc.</li>
+                <li>Energy, free-energy, variational, and thermodynamic formulations of learning</li>
+                <li>Entropy and constraints in probabilistic and generative models</li>
+                <li>Physical perspectives on generalization, robustness, and the design of learning algorithms</li>
               </ul>
             </li>
-            <li><b>Generative models as dynamical systems</b>
+            <li><b>Learning and generation as dynamical systems</b>
               <ul>
-                <li>Diffusion models, flow matching, energy-based models, and iterative refinement as dynamical processes</li>
-                <li>Nonequilibrium, thermodynamic, and stochastic-process views of generative modeling</li>
-                <li>Distributional dynamics, sampling dynamics, and trajectories in high-dimensional spaces</li>
-                <li>Controllability, steerability, interpolation, sampling efficiency, and generative geometry</li>
+                <li>Stochastic and nonequilibrium perspectives on optimization and training dynamics</li>
+                <li>Diffusion models, flow matching, energy-based models, and iterative refinement</li>
+                <li>How dynamics select solutions and lead to training or generation instabilities</li>
+                <li>Sampling efficiency, controllability, and steerability through physical analysis</li>
               </ul>
             </li>
-            <!-- <li><b>Latent spaces, representations, and emergent structure</b>
+            <li><b>Representation structure and emergent behavior</b>
               <ul>
-                <li>Geometry, topology, symmetry, and invariance in learned representations</li>
-                <li>Coarse-graining, collective variables, order parameters, and interpretable latent coordinates</li>
-                <li>Representation collapse, specialization, phase transitions, and emergent structure</li>
-                <li>Physical perspectives on mechanistic interpretability and foundation-model representations</li>
+                <li>Representation geometry, symmetry, and collective modes</li>
+                <li>Phase transitions in learning and the development of internal structures</li>
+                <li>Connections between representation structure, generalization, and model capabilities</li>
+                <li>Testable physical accounts of emergence and the limits of descriptive analogies</li>
               </ul>
             </li>
-            <li><b>Optimization and training dynamics</b>
-              <ul>
-                <li>High-dimensional loss landscapes and nonequilibrium training dynamics</li>
-                <li>Mean-field, dynamical mean-field, and spin-glass approaches to deep learning</li>
-                <li>Phase transitions, grokking, mode connectivity, implicit bias, and training instabilities</li>
-                <li>Generalization, robustness, and scaling behavior from physical or statistical-mechanical viewpoints</li>
-              </ul>
-            </li> -->
-            <!-- <li><b>Benchmarks, theory, and perspectives</b>
-              <ul>
-                <li>Minimal models and toy problems for Physics for AI</li>
-                <li>Measurable physical quantities for diagnosing training, generation, and representation learning</li>
-                <li>Benchmark proposals and evaluation protocols for physical principles in AI</li>
-                <li>Position papers, negative results, and conceptual clarifications on the role and limits of physical analogies in AI</li>
-              </ul>
-            </li> -->
           </ul>
 
           <h3>Submission Format</h3>
@@ -163,7 +163,8 @@
               <ul>
                 <li><b>Short papers:</b> up to 4 pages, excluding references and optional appendices. This format is suitable for early-stage ideas, position papers, theoretical notes, negative results, and concise empirical or conceptual studies.
                 </li>
-                <li><b>Long papers:</b> up to 8 pages, excluding references and optional appendices. This format is suitable for more developed research contributions with substantial theoretical, empirical, or methodological content.
+                <li><b>Long papers:</b> up to 9 pages, excluding references and optional appendices. This format is suitable for more developed research contributions with substantial theoretical, empirical, or methodological content.
+                </li>
               </ul>
             </li>
             <li>
@@ -186,11 +187,12 @@
         <section id="speaker" class="home-section" aria-labelledby="speaker-title">
           <h2 id="speaker-title">Speakers (Alphabetic Order)</h2>
           <p>
-            Invited speakers will be announced after invitations are confirmed.
-            Names, affiliations, talk titles, and abstracts can be added here.
+            All seven speakers below have accepted our invitations and confirmed
+            their participation, subject to acceptance of the workshop proposal.
+            Talk titles and abstracts will be announced as the program is finalized.
           </p>
 
-          <div class="person-grid" aria-label="Speaker placeholders">
+          <div class="person-grid" aria-label="Invited speakers">
             <article class="person-card">
               <img class="person-card__avatar" src="assets/images/speakers/surya.jpg" alt="" />
               <h3><a href="https://ganguli-gang.stanford.edu/surya.html">Surya Ganguli</a></h3>
@@ -219,7 +221,7 @@
             <article class="person-card">
               <img class="person-card__avatar" src="assets/images/speakers/yuandong.png" alt="" />
               <h3><a href="https://yuandong-tian.com/">Yuandong Tian</a></h3>
-              <p>Recursive_SI</p>
+              <p>Recursive Superintelligence Inc.</p>
             </article>
             <article class="person-card">
               <img class="person-card__avatar" src="assets/images/speakers/riccardo.png" alt="" />
@@ -236,15 +238,10 @@
 
         <section id="organizer" class="home-section" aria-labelledby="organizer-title">
           <h2 id="organizer-title">Organizers (Alphabetic Order)</h2>
-          <p>
-            Add names, affiliations, websites, and roles here once the
-            organizing committee is finalized.
-          </p>
-
           <div class="person-grid" aria-label="Workshop organizers">
             <article class="person-card">
               <img class="person-card__avatar" src="assets/images/organizers/ruoxi.jpg" alt="" />
-              <h3><a href="https://chao1224.github.io/">Ruoxi Jiang</a></h3>
+              <h3><a href="https://roxie62.github.io/">Ruoxi Jiang</a></h3>
               <p>Fudan University</p>
             </article>
             <article class="person-card">
