@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -8,20 +8,21 @@
       name="description"
       content="Physics and AI Workshop"
     />
-    <meta name="theme-color" content="#f3eadb" />
+    <meta name="theme-color" content="#fafbf9" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="site-header__inner">
         <a class="site-brand" href="#home">Physics for AI Workshop</a>
         <nav aria-label="Primary">
           <ul class="nav">
-            <li><a href="#home">Home</a></li>
             <li><a href="#introduction">Introduction</a></li>
             <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#call-for-paper">Call for Papers</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#submission-format">Format</a></li>
             <li><a href="#speaker">Speakers</a></li>
             <li><a href="#organizer">Organizers</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -30,31 +31,25 @@
       </div>
     </header>
 
-    <main class="page-main">
+    <main id="main" class="page-main">
       <section id="home" class="hero" aria-labelledby="hero-title">
-        <img
-          class="hero__image"
-          src="assets/images/cover.png"
-          alt=""
-          loading="eager"
-          decoding="async"
-        />
-        <div class="hero__shade" aria-hidden="true"></div>
         <div class="hero__content">
-          <p class="eyebrow">ICLR 2027 Workshop  29/30 April, 2027</p>
           <h1 id="hero-title">
             <span>Physical Pathways to</span>
-            <span>Understanding AI Mechanisms</span>
+            <span class="hero__subtitle">Understanding AI Mechanisms</span>
           </h1>
-          <p class="hero__lead">
-            Exploring how physical principles can shape learning objectives, illuminate optimization dynamics, and reveal the structure of AI representations.
-          </p>
+          <div class="hero__meta">
+            <span>ICLR 2027 Workshop</span>
+            <span>April 29 or 30, 2027 · San Francisco, USA</span>
+          </div>
         </div>
+        <figure class="hero__figure" aria-hidden="true"><img src="assets/images/landscape.svg" alt="" width="480" height="420" /></figure>
       </section>
 
       <div class="content-stack">
         <section id="introduction" class="home-section" aria-labelledby="introduction-title">
           <h2 id="introduction-title">Introduction</h2>
+          <div class="section-body">
           <p>
             Modern AI systems are increasingly powerful, yet their objectives, representations, training dynamics, and emergent behaviors remain only partially understood. The <b>Physical Pathways to Understanding AI Mechanisms</b> workshop explores how physical principles can provide mathematical and algorithmic tools for understanding and designing modern machine learning systems.
           </p>
@@ -67,10 +62,12 @@
           <p>
             Unlike broad AI-for-science workshops that focus primarily on applying AI to scientific discovery, this workshop studies AI systems themselves as objects of physical analysis. We aim to bring together researchers from machine learning, statistical physics, applied mathematics, computational neuroscience, and related fields to build a shared language for Physics for AI, clarify open problems, and identify principles for interpretable, controllable, and robust AI systems.
           </p>
+          </div>
         </section>
 
         <section id="schedule" class="home-section" aria-labelledby="schedule-title">
           <h2 id="schedule-title">Schedule</h2>
+          <div class="section-body">
           <p>
             The timeline and program below are tentative. The detailed timetable
             will be announced once the workshop date, room assignment, and
@@ -108,17 +105,18 @@
             <li>Two 60-minute poster sessions</li>
             <li>A 45-minute moderated discussion connecting learning objectives, dynamics, and representation structures</li>
           </ul>
+          </div>
         </section>
 
-        <section id="call-for-paper" class="home-section" aria-labelledby="cfp-title">
-          <h2 id="cfp-title">Call for Papers</h2>
+        <section id="topics" class="home-section" aria-labelledby="topics-title">
+          <h2 id="topics-title">Topics</h2>
+          <div class="section-body">
           <!-- <p>
             We invite submissions at the intersection of physics and AI,
             including new methods, datasets, benchmarks, position papers, and
             domain-driven studies that surface open challenges.
           </p> -->
 
-          <h3>Topics of Interest</h3>
           <p>
             We welcome submissions on topics related to <b>Physical Pathways to Understanding AI Mechanisms</b>,
             including but not limited to:
@@ -149,7 +147,12 @@
             </li>
           </ul>
 
-          <h3>Submission Format</h3>
+          </div>
+        </section>
+
+        <section id="submission-format" class="home-section" aria-labelledby="submission-format-title">
+          <h2 id="submission-format-title">Submission Format</h2>
+          <div class="section-body">
           <!-- <p>
             Format, page limits, anonymity policy, and submission system are
             TBD. This section is ready for the final NeurIPS workshop
@@ -183,10 +186,12 @@
             <li>Clarity, reproducibility, and empirical grounding</li>
             <li>Potential to stimulate workshop discussion</li>
           </ul> -->
+          </div>
         </section>
 
         <section id="speaker" class="home-section" aria-labelledby="speaker-title">
-          <h2 id="speaker-title">Speakers (Alphabetic Order)</h2>
+          <h2 id="speaker-title">Speakers <span class="section-note">(Alphabetic Order)</span></h2>
+          <div class="section-body">
           <p>
             All seven speakers below have accepted our invitations and confirmed
             their participation, subject to acceptance of the workshop proposal.
@@ -235,10 +240,12 @@
               <p>Affiliation TBD</p>
             </article> -->
           </div>
+          </div>
         </section>
 
         <section id="organizer" class="home-section" aria-labelledby="organizer-title">
-          <h2 id="organizer-title">Organizers (Alphabetic Order)</h2>
+          <h2 id="organizer-title">Organizers <span class="section-note">(Alphabetic Order)</span></h2>
+          <div class="section-body">
           <div class="person-grid" aria-label="Workshop organizers">
             <article class="person-card">
               <img class="person-card__avatar" src="assets/images/organizers/ruoxi.jpg" alt="" />
@@ -272,26 +279,27 @@
             </article> -->
           </div>
           <p class="student-assistant">
-            <b>Organizing Assistant:</b> <a href="https://liyuhao.com.cn/">Yuhao Li</a> (CUHK)
+            Student Assistant: <a href="https://liyuhao.com.cn/">Yuhao Li</a> (CUHK)
           </p>
+          </div>
         </section>
 
         <section id="contact" class="home-section" aria-labelledby="contact-title">
           <h2 id="contact-title">Contact</h2>
+          <div class="section-body">
           <p>
             For any questions about submissions, sponsorship, invited sessions, or
-            the workshop program, contact the organizing team.
+            the workshop program, contact the organizing team at
+            <a href="mailto:phys4ai.org@gmail.com">phys4ai.org@gmail.com</a>.
           </p>
-          <p>
-            <a href="mailto:phys4ai.org@gmail.com">phys4ai.org@gmail.com</a>
-          </p>
+          </div>
         </section>
       </div>
     </main>
 
     <footer class="site-footer">
       <div class="site-footer__inner">
-        <p>© <span id="year"></span>Workshop Organizers</p>
+        <p>© <span id="year"></span> Workshop Organizers</p>
       </div>
     </footer>
 
